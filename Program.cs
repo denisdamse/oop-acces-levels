@@ -4,7 +4,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        car masina = new car();
+        Console.WriteLine(masina.year);
     }
 }
 
